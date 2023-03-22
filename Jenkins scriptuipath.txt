@@ -1,0 +1,14 @@
+node{  
+
+     def gitURL = 'https://github.com/GaganGowrish/Testuipath.git'
+
+     stage('Code Checkout'){
+         git changelog: false, poll: false, url: gitURL
+     } 
+     stage('Maven Build'){
+
+     }
+     stage('Deployement'){
+    
+     }
+}
